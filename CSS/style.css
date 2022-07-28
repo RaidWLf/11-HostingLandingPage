@@ -1,0 +1,353 @@
+body {
+  font-family: "Montagu Slab";
+  font-weight: 400;
+}
+
+header {
+  margin: 3% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  width: 65%;
+  font-family: "montagu slab";
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+.item-active {
+  color: black;
+}
+
+.register-btn,
+.choose-btn {
+  font-family: "Montagu Slab";
+  font-size: 15px;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: linear-gradient(to right, white, white),
+    linear-gradient(to bottom, #0ab0dd 50%, #053983);
+
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  border-radius: 10px;
+  padding: 18px 35px;
+}
+.register-btn-text,
+.choose-btn-text {
+  background: linear-gradient(to bottom, #0ab0dd 50%, #053983);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+.main-1,
+.main-2,
+.main-3 {
+  display: flex;
+  flex-direction: row;
+  margin: 13% 10%;
+  font-family: "Montagu Slab";
+}
+
+.left-1,
+.left-3 {
+  margin-right: 6%;
+}
+
+.left-1-head,
+.right-2-head,
+.left-3-head {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 600;
+}
+.right-2-head {
+  margin-top: 17%;
+  margin-bottom: 0;
+}
+
+.left-1-sub,
+.right-2-sub,
+.left-3-sub {
+  color: gray;
+  font-size: 15px;
+}
+.left-1-sub {
+  margin: 7% auto;
+}
+.right-2-sub,
+.left-3-sub {
+  margin: 5% auto;
+}
+.left-1-btn,
+.right-2-btn,
+.left-3-btn {
+  border: none;
+  font-family: "Montagu Slab";
+  background: linear-gradient(120deg, #0ab0dd 60%, #053983);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 17px 0;
+}
+
+.main-4 {
+  display: flex;
+  flex-direction: column;
+  margin: 22% 10%;
+}
+.main-5 {
+  display: flex;
+  flex-direction: column;
+  margin: auto -0.5%;
+  background: linear-gradient(170deg, #4ecaed, #236dd3);
+}
+.top-col {
+  display: flex;
+  flex-direction: row;
+}
+.top-col-head {
+  font-size: 50px;
+  width: 150%;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.top-col-sub {
+  color: gray;
+  margin: auto 3% auto 7%;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.card-head {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 6%;
+}
+.card-desc {
+  color: gray;
+  font-size: 13px;
+}
+.card-item {
+  width: 27.05%;
+  margin-bottom: 5%;
+}
+
+.cards-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 10%;
+  margin-bottom: 5%;
+}
+
+.card-5-item {
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.top-5 {
+  margin: 2% auto;
+}
+.bot-5 {
+  margin-bottom: 2%;
+}
+.head-5 {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+.card-5-top {
+  margin-top: 0;
+  border: solid white;
+  border-radius: 10px;
+}
+.card-5-head {
+  font-size: 30px;
+  margin: 5% 10%;
+  margin-top: 10%;
+}
+.card-5-sub {
+  margin: 5% 10%;
+  margin-bottom: 10%;
+  color: gray;
+}
+
+.card-5-mid {
+  margin: auto 10%;
+  font-weight: 500;
+}
+.card-5-icon {
+  width: 7%;
+  margin-right: 5%;
+}
+.card-5-content {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+.active-card {
+  background-color: rgb(57, 51, 51);
+  color: white;
+  border-radius: 10px;
+  border: solid rgb(57, 51, 51);
+}
+.card-5-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.price span {
+  color: gray;
+}
+.cancel {
+  margin-top: 2%;
+  color: gray;
+}
+.choose-btn {
+  margin: 10% auto;
+  margin-top: 3%;
+}
+
+.main-6 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.main-6-top {
+  text-align: center;
+  /* margin-top: 60%; */
+}
+.main-6-head {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.main-6-sub {
+  color: gray;
+  width: 50%;
+  margin: 2% auto;
+  margin-bottom: 5%;
+}
+
+.main-6-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 10%;
+  justify-content: space-between;
+}
+
+.card-6-item {
+  width: 40%;
+  margin-bottom: 3%;
+  padding: 2% 4%;
+  background-color: #f0f2f4;
+  border: solid #abafb2 1px;
+  border-radius: 10px;
+}
+.card-6-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-name {
+  margin-left: 5%;
+}
+.name {
+  margin-bottom: 0;
+}
+.post {
+  margin-top: 4%;
+  color: gray;
+}
+.main-7 {
+  margin: auto -0.5%;
+  margin-top: 10%;
+}
+.top-7 {
+  /* border: solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(170deg, #4ecaed, #236dd3);
+}
+.top-7-left {
+  margin: 6% 10%;
+  width: 45%;
+  color: white;
+}
+
+.top-7-head {
+  margin-top: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+.top-7-sub {
+  font-weight: 200;
+  margin: 0 auto;
+}
+.top-7-right {
+  margin: 10%;
+}
+.register-btn-2 {
+  font-family: "Montagu Slab";
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-radius: 10px;
+  padding: 18px 35px;
+  color: white;
+  background: transparent;
+}
+.bot-7 {
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 9%;
+  margin-bottom: 1%;
+}
+
+.logo-sec {
+  width: 20%;
+}
+
+.logo-sec p,
+.sec-content {
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.sec-head {
+  font-size: 22px;
+  margin-bottom: 6%;
+}
